@@ -1,0 +1,233 @@
+.home-aksiya {
+    background: #E5E5E5;
+}
+.aksiya {
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+.aksiya__container {
+}
+.aksiya__wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.aksiya__heading {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 110%;
+    color: #1A1A25;
+}
+.aksiya__text {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 120%;
+    color: #828282;
+    &:nth-child(n+2){
+        margin-left: 30px;
+    }
+}
+.aksiya__list {
+    @include list-unstyled;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 36px;
+}
+.aksiya__item {
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    padding-bottom: 26px;
+    background-color: #fff;
+    &:hover .aksiya__item-images-img {
+        &:nth-child(2) {
+            left: 44px;
+            z-index: 1;
+        }
+        &:nth-child(3) {
+            left: 88px;
+            z-index: 2;
+        }
+    }
+}
+.aksiya__item-link {
+    text-decoration: none;
+}
+.aksiya__item-img {
+    display: block;
+}
+.aksiya__item-box1 {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.aksiya__item-box1-spanGreen {
+    margin: 0 6px 0 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #2FC509;
+}
+.aksiya__item-box1-box {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #2FC509;
+    margin-right: 2px;
+}
+.aksiya__item-box1-spanBlue {
+    margin-left: 12px;
+    padding: 0;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #4B7EE8;
+}
+.aksiya__item-text {
+    max-width: 260px;
+    width: 100%;
+    margin: 8px 20px 0 20px;
+    padding: 0;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1A1A25;
+}
+.aksiya__item-rating {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.aksiya__item-rating-span {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #909CB5;
+}
+.aksiya__item-rating-stars {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.aksiya__item-rating-star {
+    display: block;
+}
+.aksiya__item-buy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.aksiya__item-buy-price {
+    display: flex;
+    flex-direction: column;
+}
+.aksiya__item-buy-price-span1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 135.94%;
+    color: #1A1A25;
+}
+.aksiya__item-buy-price-del {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135.94%;
+    // text-decoration-line: line-through;
+    color: #858FA4;
+}
+.aksiya__item-buy-btn {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 13px 20px 14px 22px;
+    background: #F53B49;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    &:hover {
+
+        background-color: #000300;
+    }
+}
+.aksiya__item-buy-btn-img {
+    display: block;
+}
+.aksiya__item-buy-btn-span {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.carusel__wrapper-btn {
+}
+.trenajor__btn {
+}
+.aksiya__item-images {
+    position: absolute;
+    width: 90%;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+}
+.aksiya__item-images-img {
+    top: 10px;
+    position: absolute;
+    display: block;
+    &:nth-child(2) {
+        left: 25px;
+        z-index: 1;
+    }
+    &:nth-child(3) {
+        left: 50px;
+        z-index: 2;
+    }
+}
+.aksiya__item-images-img2 {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    display: block;
+    top: 20px;
+    &:nth-child(4) {
+        right: 28px;
+    }
+}
+
+@include breakpoint-down(950px) {
+    .aksiya__list {
+        justify-content: space-around;
+    }
+}

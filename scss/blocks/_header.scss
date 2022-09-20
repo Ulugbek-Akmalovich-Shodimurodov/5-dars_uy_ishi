@@ -1,3 +1,5 @@
+/* header */
+
 .site-header{
     padding: 10px 0 0 0;
     background: #1A1A25;
@@ -60,7 +62,7 @@
     color: #858fa4;
 }
 .tel-contact__link{
-    color: red;
+    color: #F53B49;
 }
 .tel-contact__link:hover{
     color: #fff;
@@ -235,7 +237,7 @@
     display: none;
 }
 
-// media
+// media query
 
 @media only screen and(max-width:1050px){
 
@@ -305,211 +307,5 @@
     }
     .commentary-list{
         margin-left: 25px;
-    }
-    // .katalog-list__item{
-    //     display: flex;
-    //     justify-content: space-around;
-    // }
-    
+    }   
 }
-
-// aehfu9qwjreigjm
-
-/* header */
-
-
-
-// .site__header{
-//     position: relative;
-//     z-index: 1000;
-    
-//     width: 100%;
-//     max-width: 1270px;
-//     margin: 0 auto;
-//     padding: 0 20px;
-    
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-
-//     background: #FFA07A;
-// }
-// .pages-header{
-    
-//     background: #fff;
-// }
-// #menu-bars{
-//     display: none;
-// }
-// .site_logo{
-//     width: 120px;
-//     height: auto;
-    
-//     margin-left: 25px;
-// }
-// .site__navbar{
-//     position: fixed;
-//     top: 0;
-
-//     width: 100%;
-//     max-width: 1230px;
-//     // margin: 0 auto;
-//     padding: 0 20px;
-    
-//     padding-right: 25px;
-    
-//     display: flex;
-//     align-items: center;
-//     justify-content: space-between;
-//     flex-wrap: wrap;
-    
-//     list-style: none;
-    
-//     background: #FFA07A;
-    
-// }
-// .pages__navbar{
-//     background: #fff;
-// }
-// .navbar-list{
-//     display: block;
-
-//     max-width: 1150px;
-//     margin-right: 25px;
-
-//     display: flex;
-//     gap: 20px;
-
-//     list-style: none;
-
-// }
-
-// .navbar-list__item-link{
-
-//     font-weight: 700;
-//     font-size: 16px;
-//     line-height: 160%;
-//     display: flex;
-//     align-items: center;
-//     color: #424551;
-    
-// }
-
-// .navbar-list__item-link:hover{
-    
-//     color: #FF3F3A;
-// }
-// .dublecite-registr{
-//     display: none;
-// }
-// .dublecite-registr__btn{
-//     display: none;
-// }
-// .menu-bars{
-//     width: 18px;
-//     height: 18px;
-//     margin-right: 25px;
-
-//     display: none;
-
-//     border: none;
-
-//     background: inherit;
-
-// }
-// .registr__list{
-//     display: flex;
-//     align-items: center;
-//     gap: 30px;
-// }
-// .registr-btn{
-//     width: 206px;
-//     height: 52px;
-
-//     background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
-//     color: #fff;
-
-//     font-weight: 700;
-//     font-size: 16px;
-//     line-height: 160%;
-    
-//     border: none;
-//     border-radius: 4px;
-// }
-// .sign-in-up__list{
-//     display: flex;
-//     gap: 5px;
-// }
-// .sign-in-up__list, .sign-in-up__list a{
-//     font-weight: 700;
-//     font-size: 16px;
-//     line-height: 160%;
-//     display: flex;
-//     align-items: center;
-//     color: #424551;
-// }
-// .in-up:hover{
-//     color: #FF3F3A;
-// }
-
-
-
-// @media only screen and(max-width:725px){
-//     .navbar-list{
-
-//         position: absolute;
-//         top: 0;
-
-//         width: 110%;
-//         padding: 30px 20px;
-//         top: 68px;
-//         display: none;
-//         text-align: center;
-//         background: rgba($color: #FFA07A, $alpha: 0.8);
-//     }
-//     .menu-bars{
-//         display: block;
-//         margin-right: 0;
-//         color: #fff;
-//     }
-//     #menu-bars:checked ~ .navbar-list{
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
-//         left: 0;
-//     }
-//     body:hover ~ .navbar-list{
-//         display: none;
-
-//     }
-//     .navbar-list__item-link{
-//         line-height: 1.5;
-        
-//     }
-
-    
-// }
-// @media only screen and(max-width:660px){
-//     .registr-list__in-up{
-//         display: none;
-//     }
-//     .dublecite-registr{
-//         display: block;
-//     }
-    
-// }
-// @media only screen and(max-width:480px){
-//     .site__navbar{
-//         padding-top: 20px;
-//         padding-bottom: 20px;
-//     }
-//     .navbar-list{
-//         top: 48px;
-//     }
-//     .registr__list{
-//         display: none;
-//     }
-//     .dublecite-registr__btn{
-//         display: block;
-//     }
-// }

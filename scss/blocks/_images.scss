@@ -1,0 +1,221 @@
+.home__images {
+    padding-top: 115px;
+    padding-bottom: 100px;
+    background-color: #1A1A25;
+}
+.images {
+}
+.images__container {
+}
+.images__heading {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+.images__list {
+    @include list-unstyled;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.images__item {
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+}
+.images__item-img {
+    display: block;
+}
+.images__item-wrapper {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.images__wrapper-text {
+    max-width: 302px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 110%;
+    color: #F2F2F2;
+}
+.images__wrapper-box {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.images__box-img {
+    display: block;
+}
+.images__box-span {
+    margin: 0;
+    padding: 0;
+    max-width: 130px;
+    width: 100%;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 114.94%;
+    color: #1A1A25;
+}
+.images__wrapper-img {
+    margin-top: 44px;
+    display: block;
+}
+.images__item2 {
+    position: relative;
+    max-width: 285px;
+    width: 100%;
+}
+.images__item2-img {
+    display: block;
+}
+.images__item2-text {
+    max-width: 207px;
+    width: 100%;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 110%;
+    text-transform: uppercase;
+    color: #1A1A25;
+}
+.images__item2-span {
+    display: block;
+    font-size: 32px;
+    line-height: 110%;
+    color: #F53B49;
+}
+.images__item3 {
+    position: relative;
+    max-width: 285px;
+    width: 100%;
+}
+.images__item3-img {
+}
+.images__item3-text {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    max-width: 200px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 110%;
+    text-transform: uppercase;
+    color: #F53B49;
+}
+.images__item3-text-span {
+    display: block;
+    color: #1A1A25;
+}
+.images__item3-img2 {
+    position: absolute;
+    top: 120px;
+    left: 30px;
+    display: block;
+    margin-top: 8px;
+}
+.images__btn {
+    margin: 30px  0 0 0;
+    padding: 12px 20px 13px 20px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 4px;
+    cursor: pointer;
+    &:hover {
+        background-color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+        color: #1A1A25;
+    }
+}
+
+@include breakpoint-down(636px) {
+    .images__list {
+        justify-content: center;
+    }
+    .images__heading {
+        font-size: 22px;
+        line-height: 110%;
+    }
+    .images__wrapper-text {
+        font-size: 15.8032px;
+        line-height: 110%;
+    }
+    .images__box-img {
+        max-width: 50px;
+        width: 100%;
+        height: auto;
+    }
+    .images__box-span {
+        font-size: 10.5355px;
+        line-height: 114.94%;
+    }
+    .images__wrapper-img {
+        max-width: 86px;
+        width: 100%;
+        height: auto;
+    }
+    .images__item2-text {
+        font-size: 15px;
+        line-height: 110%;
+    }
+    .images__item2-span {
+        font-size: 22px;
+        line-height: 110%;
+    }
+    .images__item3-text {
+        font-size: 15px;
+        line-height: 110%;
+    }
+    .images__item3-img2 {
+        width: 75px;
+        height: auto;
+    }
+}
+
+@include breakpoint-down(450px) {
+    .images__item-wrapper {
+        top: 15px;
+        left: 15px;
+    }
+    .images__wrapper-box {
+        margin-top: 7px;
+    }
+    .images__wrapper-img {
+        margin-top: 8px;
+    }
+}
+
+@include breakpoint-down(320px) {
+    .images__item-wrapper {
+        top: 10px;
+        left: 10px;
+    }
+    .images__wrapper-box {
+        margin-top: 5px;
+    }
+    .images__wrapper-img {
+        margin-top: 4px;
+    }
+}
